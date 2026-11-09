@@ -1,0 +1,123 @@
+/* The UX Review Blog-NavBar */
+  @media screen and (max-width: 992px) {
+     body {
+        padding: 0;
+        overflow-x: hidden;
+    }
+    .ground {
+        padding: 95px 30px;
+    }
+    .header-nav {
+        width: 100%;
+        margin: 0px;
+        padding: 0px ;
+        border-radius: 12px; 
+    }
+    .nav-links{
+        flex-direction: column;
+    }
+    .container {
+        width: 100%;
+    }
+    .blog {
+        flex-direction: column;
+        gap: 25px;
+        text-align: left; 
+    }
+    .blog h1 {
+        font-size: 42px;
+        margin: 15px 0;
+    }
+    .blog p {
+        font-size: 15px;
+        width: 100%;
+        display: block;
+        box-shadow: 3px 3px 0px 0px #000;
+        padding: 12px;
+    }
+    .buttons-container {
+        gap: 10px;
+        width: 100%;
+    }
+    .button1, .button2 {
+        padding: 8px;
+    }
+    .but-cont h2, .but2-cont h2 {
+        font-size: 12px;
+    }
+    .right-imgg {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .big-img {
+        width: 100%;
+        max-width: 100%;
+        padding: 8px;
+    }
+    .cont-big-img span {
+        top: -12px;
+        right: 5px;
+        font-size: 11px;
+        padding: 4px 10px;
+    }
+} 
+
+/* LATEST ARTICLES  */
+@media screen and (max-width: 992px) {
+        .main-grid-layout {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .sidebar-right {
+        width: 100%;
+    }
+    .cart {
+        flex-direction: column;
+        padding: 20px;
+        gap: 20px;
+    }
+    .cart-img-wrapper {
+        width: 100%;
+    }
+    .content-cont h3 {
+        font-size: 28px;
+    }
+
+    .cart-contt h3 {
+        font-size: 20px;
+    }
+    .Ratingg {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .categories {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* AUTHORS */
+@media screen and (max-width: 992px) {
+    .cartt-contentt {
+        flex-direction: column;
+        gap: 30px;
+    }
+    .container {
+        width: 90%;
+    }
+    .cart1, 
+    .cart11, 
+    .cart12 {
+        width: 100%;
+        padding: 25px;
+    }
+    .authors h2 {
+        font-size: 30px;
+    }
+    .social img {
+        width: 15%;
+    }
+}
+
+
+
